@@ -140,7 +140,7 @@ button.btn-round {
 }
 
 .topnav ul li a {
-  font-family: Montserrat, serif;
+  font-family: 'Montserrat', serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -204,7 +204,7 @@ button.btn-round {
 }
 
 .hero__content h1 {
-  font-family: Montserrat;
+  font-family: 'Montserrat', serif;
   font-style: normal;
   font-weight: normal;
   font-size: 56px;

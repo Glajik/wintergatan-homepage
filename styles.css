@@ -1,3 +1,10 @@
+/* Colors */
+:root {
+  --main-bg-color: rgb(235, 239, 243);
+  --odd-bg-color: rgb(225, 230, 233);
+  --primary-color: #18A0FB;
+}
+
 body {
   background: rgb(184, 195, 204);
 }
@@ -6,7 +13,7 @@ body {
   padding: 0;
   margin: 0 auto;
   max-width: 1680px;
-  background: rgb(235, 239, 243);
+  background: var(--main-bg-color);
 }
 
 /* Articles */
@@ -59,7 +66,7 @@ body {
 
 .article--reverse {
   flex-direction: row-reverse;
-  background: rgb(225, 230, 233);
+  background: var(--odd-bg-color);
 }
 
 .article--reverse figcaption {
@@ -83,7 +90,7 @@ button.btn {
 }
 
 button.btn-filled {
-  background: #18A0FB;
+  background: var(--primary-color);
   color: white;
 }
 
@@ -94,13 +101,13 @@ button.btn-filled:hover {
 
 button.btn-unfilled {
   background: rgb(0,0,0,0);
-  color: #18A0FB;
-  border: 2px solid #18A0FB;
+  color: var(--primary-color);
+  border: 2px solid var(--primary-color);
 }
 
 button.btn-unfilled:hover {
   background: white;
-  color: #18A0FB;
+  color: var(--primary-color);
 }
 
 button.btn-round {
@@ -152,7 +159,7 @@ button.play-btn {
   line-height: 18px;
   letter-spacing: -0.015em;
   /* Actionable Item */
-  color: #18A0FB;
+  color: var(--primary-color);
 }
 
 .topnav figcaption {

@@ -44,6 +44,27 @@
     </nav>
   </header>
 
+  <!-- Hero -->
+  <main class="container">
+    <article class="hero">
+      <div class="hero__video-frame">
+        <iframe class="dimmed" id="heroVideoFrame" src="https://www.youtube-nocookie.com/embed/5dyUKDWKxxY??autoplay=1&controls=0&disablekb=1&enablejsapi=1&fs=0&loop=1&color=white&start=0" frameborder="0" allow="autoplay; encrypted-media;"></iframe>
+      </div>
+      <div class="hero__video-controls">
+        <button id="heroVideoCtl_PlayButton" type="button" class="btn btn-filled btn-round play-btn">
+          <span class="icons sound-bars-icon"></span>
+        </button>
+      </div>
+      <section class="hero__content">
+        <div id="heroCaption" class="hero__caption">
+          <h1>Summer 2020 - Tour to Ukraine</h1>
+          <p>Amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
+        </div>
+        <button type="button" class="btn btn-filled">Join Today</button>
+      </section>
+    </article>
+  </main>
+
   <!-- Articles -->
   <section class="container">
     <!-- Records -->
@@ -93,5 +114,44 @@
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+  <!-- Hero Youtube player custom control -->
+  <script type="text/javascript">
+    const videoFrameId = 'heroVideoFrame';
+    const playButtonId = 'heroVideoCtl_PlayButton';
+    const heroCaptionId = 'heroCaption';
+
+    const tag = document.createElement('script');
+    tag.id = 'iframe-demo';
+    tag.src = 'https://www.youtube.com/iframe_api';
+    const firstScriptTag = document.getElementsByTagName('script')[0];
+    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+    // Start video playback, with no sound, for background
+    function onPlayerReady(event) {
+      event.target.setVolume(0);
+      event.target.playVideo();
+    }
+
+    let player;
+    function onYouTubeIframeAPIReady() {
+      player = new YT.Player(videoFrameId, {
+          events: {
+            'onReady': onPlayerReady,
+          }
+      });
+    }
+
+    const playButton = document.getElementById(playButtonId);
+    const videoFrame = document.getElementById(videoFrameId);
+    const heroCaption = document.getElementById(heroCaptionId);
+
+    playButton.addEventListener('click', () => {
+      player.setVolume(100);
+      playButton.classList.add('hidden');
+      videoFrame.classList.remove('dimmed');
+      heroCaption.classList.add('hidden');
+    });
+  </script>
 </body>
 </html>

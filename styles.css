@@ -228,6 +228,57 @@ button.play-btn {
   letter-spacing: -0.015em;
 }
 
+/* Tour */
+.tour {
+
+}
+
+.tour__card {
+  max-width: 686px;
+}
+
+
+/* Card */
+.card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+
+.card figure {
+ 
+}
+
+.card figcaption {
+  margin: 71px 64px; 
+}
+
+.card img {
+  width: 100%;
+}
+
+.card h1 {
+  font-family: 'Montserrat', serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height, or 150% */
+  letter-spacing: -0.015em;
+}
+
+.card p {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  /* or 167% */
+  
+  letter-spacing: -0.015em;
+}
+
 /* Icons */
 span.icons {
   width: 60px;

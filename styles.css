@@ -78,6 +78,7 @@ button.btn {
   min-width: 130px;
   min-height: 40px;
   border-radius: 6px;
+  margin: 0 5px;
 }
 
 button.btn-filled {
@@ -110,13 +111,13 @@ button.btn-unfilled:hover {
 }
 
 .topnav__left {
-  border: 1px solid green;
+  /* border: 1px solid green; */
   display: flex;
   align-items: flex-end;
 }
 
 .topnav__right {
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   display: flex;
   align-items: center;
 }

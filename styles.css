@@ -107,6 +107,11 @@ button.btn-round {
   border-radius: 100%;
 }
 
+button.play-btn {
+  min-width: 130px;
+  min-height: 130px;
+}
+
 /* Navigation */
 .topnav {
   display: flex;
@@ -188,8 +193,6 @@ button.btn-round {
   position: absolute;
   top: calc(50% - 132px / 2);
   left: calc(50% - 132px / 2);
-  height: 100%;
-  width: 100%; 
 }
 
 .hero__content {
@@ -251,11 +254,7 @@ span.icons {
   content: url("./img/icons/sound_bars.svg");
 }
 
-button.play-btn {
-  min-width: 130px;
-  min-height: 130px;
-  transition: ease;
-}
+/* helpers */
 
 .hidden {
   visibility: hidden;

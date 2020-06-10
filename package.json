@@ -1,0 +1,12 @@
+{
+  "name": "homepage",
+  "version": "1.0.0",
+  "description": "cs50 week8 task",
+  "main": "index.js",
+  "author": "Viacheslav Glazhevskyi",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "serve": "^11.3.2"
+  }
+}

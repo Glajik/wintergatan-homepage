@@ -8,6 +8,7 @@ body {
   max-width: 1680px;
 }
 
+/* Articles */
 .article {
   display: flex;
   flex-direction: row;
@@ -63,4 +64,39 @@ body {
 .article--reverse figcaption {
   margin-left: 0px;
   margin-right: 40px;
+}
+
+/* Buttons */
+button.btn {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  /* identical to box height, or 150% */
+  letter-spacing: -0.015em;
+  min-width: 130px;
+  min-height: 40px;
+  border-radius: 6px;
+}
+
+button.btn-filled {
+  background: #18A0FB;
+  color: white;
+}
+
+button.btn-filled:hover {
+  background: rgb(20, 135, 212);
+  color: white;
+}
+
+button.btn-unfilled {
+  background: rgb(0,0,0,0);
+  color: #18A0FB;
+  border: 2px solid #18A0FB;
+}
+
+button.btn-unfilled:hover {
+  background: white;
+  color: #18A0FB;
 }

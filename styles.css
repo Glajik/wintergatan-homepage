@@ -100,3 +100,61 @@ button.btn-unfilled:hover {
   background: white;
   color: #18A0FB;
 }
+
+/* Navigation */
+.topnav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 80px;
+}
+
+.topnav__left {
+  border: 1px solid green;
+  display: flex;
+  align-items: flex-end;
+}
+
+.topnav__right {
+  border: 1px solid blue;
+  display: flex;
+  align-items: center;
+}
+
+.topnav ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0;
+}
+
+.topnav ul li {
+  list-style: none;
+  margin-right: 40px;
+}
+
+.topnav ul li a {
+  font-family: Montserrat, serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: -0.015em;
+  /* Actionable Item */
+  color: #18A0FB;
+}
+
+.topnav figcaption {
+  font-family: 'Montserrat', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 32px;
+  /* identical to box height */
+  letter-spacing: -0.015em;
+  margin-left: 10px;
+}
+
+.topnav figure {
+  margin: 0;
+}

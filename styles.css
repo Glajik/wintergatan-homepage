@@ -230,13 +230,72 @@ button.play-btn {
 
 /* Tour */
 .tour {
-
+  display: flex;
+  justify-content: space-between;
+  padding: 120px 80px;
 }
 
 .tour__card {
   max-width: 686px;
 }
 
+.tour__about {
+  max-width: 750px;
+  margin-right: 40px;
+}
+
+.tour__about figure{
+  max-width: 700px;
+}
+
+/* About */
+.about {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.about h1 {
+  font-family: 'Montserrat', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 72px;
+  /* identical to box height, or 150% */
+  letter-spacing: -0.015em;
+  margin-bottom: 30px;
+}
+
+.about p {
+  font-family: 'Montserrat', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 50px;
+  /* or 139% */
+  letter-spacing: -0.015em;
+}
+.about figcaption {
+  margin-bottom: 65px;
+}
+
+.about figure {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.about ul {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 0;
+  margin-bottom: 60px;
+}
+
+.about li {
+  list-style: none;
+}
 
 /* Card */
 .card {

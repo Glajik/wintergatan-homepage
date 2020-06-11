@@ -356,6 +356,21 @@ button.play-btn, a.play-btn {
   margin: 0;
 }
 
+/* Logo ancor */
+.logo-ancor {
+  display: flex;
+  color: black;
+}
+
+.logo-ancor:hover {
+  color: black;
+  text-decoration-line: none;
+}
+
+.logo-ancor:visited {
+  color: black;
+}
+
 /* Breadcrumb */
 .breadcrumb {
   padding: 0px 80px;

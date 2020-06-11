@@ -236,7 +236,7 @@ button.play-btn, a.play-btn {
   background-color: var(--odd-bg-color);
 }
 
-.showcase__caption h1 {
+.showcase__header h1 {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -246,7 +246,7 @@ button.play-btn, a.play-btn {
   letter-spacing: -0.015em;
 }
 
-.showcase__caption p {
+.showcase__header p {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -257,13 +257,13 @@ button.play-btn, a.play-btn {
   margin-top: 30px;
 }
 
-.showcase__items {
+.showcase__content {
   display: flex;
   justify-content: space-between;
   margin-top: 100px;
 }
 
-.showcase__items > .card {
+.showcase__card {
   max-width: 429px;
 }
 

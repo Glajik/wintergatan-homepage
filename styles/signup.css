@@ -1,0 +1,44 @@
+.signup {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  background-color: white;
+  width: 622px;
+  padding: 64px;
+}
+
+.signup h1 {
+  font-family: 'Montserrat', serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height, or 150% */
+  letter-spacing: -0.015em;
+  margin-bottom: 43px;
+}
+
+
+.signup input.form-control {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  height: 40px;
+  border-radius: 0px;
+  font-family: 'Montserrat', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  /* identical to box height, or 160% */
+  letter-spacing: -0.015em;
+  margin-bottom: 24px;
+}
+
+.signup span.input-group__margin {
+  width: 24px;
+}
+
+.signup input:valid {
+  border: 2px solid green;
+}
+
+.signup button[type="submit"] {
+  margin: 0px;
+}

@@ -16,7 +16,7 @@
   <!-- Stylesheets -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <link href="styles.css" rel="stylesheet">
-  <link href="/styles/signup-page.css" rel="stylesheet">
+  <link href="/styles/signup.css" rel="stylesheet">
   <!-- Title -->
   <title>Sign Up</title>
 </head>
@@ -47,13 +47,25 @@
 
   <main class="container">
     <!-- Showcase -->
-    <article class="showcase bg-odd">
+    <article class="showcase">
       <section class="showcase__header text-center">
         <h1>Ready to join the community?</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
       </section>
       <section class="showcase__content flex_center">
-        <p>Some content</p>
+        <article class="signup">
+          <h1>Sign up for a free account</h1>
+          <form action="#" method="GET">
+            <div class="input-group">
+              <input class="form-control" type="text" name="first_name" placeholder="First name" minlength="3" required>
+              <span class="input-group__margin"></span>
+              <input class="form-control" type="text" name="last_name" placeholder="Last name" minlength="4" required>
+            </div>
+            <input class="form-control" type="email" name="email" placeholder="Email" required>
+            <input class="form-control" type="password" name="password" placeholder="Create password" minlength="6" required>
+            <button type="submit" class="btn btn-filled">Register</button>
+          </form>
+        </article>
       </section>
     </article>
   </main>

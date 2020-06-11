@@ -31,7 +31,7 @@ body {
  */
 
 /* Buttons */
-button.btn {
+button.btn, a.btn {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -39,38 +39,41 @@ button.btn {
   line-height: 18px;
   /* identical to box height, or 150% */
   letter-spacing: -0.015em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   min-width: 130px;
   min-height: 40px;
   border-radius: 6px;
   margin: 0 5px;
 }
 
-button.btn-filled {
+button.btn-filled, a.btn-filled {
   background: var(--primary-color);
   color: white;
 }
 
-button.btn-filled:hover {
+button.btn-filled:hover, a.btn-filled:hover {
   background: rgb(20, 135, 212);
   color: white;
 }
 
-button.btn-unfilled {
+button.btn-unfilled, a.btn-unfilled {
   background: rgb(0,0,0,0);
   color: var(--primary-color);
   border: 2px solid var(--primary-color);
 }
 
-button.btn-unfilled:hover {
+button.btn-unfilled:hover, a.btn-unfilled:hover {
   background: white;
   color: var(--primary-color);
 }
 
-button.btn-round {
+button.btn-round, a.btn-round {
   border-radius: 100%;
 }
 
-button.play-btn {
+button.play-btn, a.play-btn {
   min-width: 130px;
   min-height: 130px;
 }

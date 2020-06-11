@@ -1,5 +1,16 @@
 # The Wintergatan Homepage
 
+This is not official website, it's only a hypotetic new website wireframe, created for learning purposes.
+
+[Official Website](https://wintergatan.net/)
+
+Wintergatan (Swedish pronunciation: [ˈvɪ̂nːtɛrˌɡɑːtan], "the Milky Way", lit. '"the Winter Street"') is a Swedish folktronica band from Gothenburg. Martin Molin and Marcus Sjöberg were previously part of the former band Detektivbyrån. The band uses a variety of unconventional instruments including the Modulin, a fingerboard-controlled synthesizer built from Doepfer eurorack modules,[3] the Moog Theremini digital theremin, an electric autoharp, a hammered dulcimer, a self-built punch-card music box, a slide projector, a musical saw, and a typewriter for use as percussion.
+
+## Marble Machine
+Between December 2014 and March 2016, the band uploaded several YouTube videos featuring Martin Molin documenting the construction of a music box that uses marbles to play instruments. The machine is powered by a hand-crank, and works by raising steel marbles through the machine into multiple feeder tubes, where they are then released from height via programmable release gates, falling and striking a musical instrument below. Instruments played by marbles striking them include a vibraphone, bass guitar, cymbal, and emulated kick drum, high hat and snare drum sounds using contact microphones. The music score is stored on two programmable wheels that utilize Lego Technic beams and stud connectors to trigger armatures to release the marbles. A final music video showing the machine in use was released in 2016, and has been viewed over 141 million times.
+
+[Wikipedia](https://en.wikipedia.org/wiki/Wintergatan)
+
 ## Интересности
 
 ### Схлопывание отступов (margin)

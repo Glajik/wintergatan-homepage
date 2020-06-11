@@ -61,7 +61,7 @@
       <section class="showcase__content flex_center">
         <article class="signup">
           <h1>Sign up for a free account</h1>
-          <form action="#" method="GET">
+          <form action="#" method="GET" onsubmit="handleLogin">
             <div class="input-group">
               <input class="form-control" type="text" name="first_name" placeholder="First name" minlength="3" required>
               <span class="input-group__margin"></span>
@@ -100,6 +100,20 @@
     </article>
   </footer>
 
+  <!-- Form submit handler -->
+  <script lang="Javascript">
+    const handleSubmit = (event) => {
+      event.preventDefault();
+      const first_nameEl = document.querySelector('[name="first_name"]');
+      const name = first_nameEl.value;
+      window.alert(`Congrats, ${name}! You are registered.`);
+      location.assign("/");
+    }
+
+    document.querySelector('form')
+      .addEventListener('submit', handleSubmit);
+  </script>
+  
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

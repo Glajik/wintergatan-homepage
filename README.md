@@ -61,3 +61,17 @@ console.log(data);
 
 [Submit event](https://developer.mozilla.org/en-US/docs/Web/API/HTMLFormElement/submit_event)
 [Using FormData Objects](https://developer.mozilla.org/en-US/docs/Web/API/FormData/Using_FormData_Objects)
+
+
+### Навигация
+
+```JS
+// Navigate to a new page
+location.assign("http://www.mozilla.org");
+
+// Force reloading the current page from the server
+location.reload(true);
+```
+
+[Location](https://developer.mozilla.org/en-US/docs/Web/API/Window/location)
+[History](https://developer.mozilla.org/en-US/docs/Web/API/History/pushState)

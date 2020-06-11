@@ -204,7 +204,8 @@ button.play-btn, a.play-btn {
 .about {
   display: flex;
   flex-direction: column;
-  align-content: center;
+  align-items: center;
+  padding: 120px 80px;
 }
 
 .about h1 {
@@ -235,6 +236,15 @@ button.play-btn, a.play-btn {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
+}
+
+.about__container {
+  padding: 120px 80px;
+}
+
+.about__container figure {
+  max-width: calc(173px * 4 + 84px * 3);
+  width: 100%;
 }
 
 .about ul {

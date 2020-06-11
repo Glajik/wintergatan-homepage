@@ -72,6 +72,7 @@
   margin-right: 40px;
 }
 
-.tour__about figure{
+.tour__about figure {
   max-width: 700px;
+  width: 100%;
 }

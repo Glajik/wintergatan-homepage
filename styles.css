@@ -124,19 +124,18 @@ button.play-btn {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 80px;
+  padding: 0px 80px;
+  height: 60px;
 }
 
 .topnav__left {
   /* border: 1px solid green; */
   display: flex;
-  align-items: flex-end;
 }
 
 .topnav__right {
   /* border: 1px solid blue; */
   display: flex;
-  align-items: center;
 }
 
 .topnav ul {
@@ -144,6 +143,7 @@ button.play-btn {
   justify-content: flex-end;
   align-items: center;
   margin: 0;
+  padding: 0;
 }
 
 .topnav ul li {

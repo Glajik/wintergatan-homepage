@@ -1,0 +1,33 @@
+/* Gratitude */
+
+.gratitude {
+  padding: 120px 80px;
+  text-align: center;
+  /* height: 470px; */
+}
+
+.gratitude__text {
+  font-family: 'Montserrat', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 50px;
+  /* or 139% */
+  letter-spacing: -0.015em;
+}
+
+.gratitude__author {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.gratitude__author p {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  /* identical to box height, or 167% */
+  letter-spacing: -0.015em;
+  margin-top: 16px;
+}

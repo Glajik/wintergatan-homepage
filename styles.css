@@ -30,6 +30,26 @@ body {
   background-color: var(--odd-bg-color);
 }
 
+.flex-start {
+  justify-content: start;
+}
+
+.flex-end {
+  justify-content: end;
+}
+
+.flex_center {
+  justify-content: center;
+}
+
+.flex-list {
+  justify-content: space-between;
+}
+
+.text_center {
+  text-align: center;
+}
+
 /**
  * COMPONENTS
  */
@@ -259,21 +279,9 @@ button.play-btn, a.play-btn {
   margin-top: 30px;
 }
 
-.showcase__header_centered {
-  text-align: center;
-}
-
 .showcase__content {
   display: flex;
   margin-top: 100px;
-}
-
-.showcase__content_list {
-  justify-content: space-between;
-}
-
-.showcase__content_centered {
-  justify-content: center;
 }
 
 .showcase__card {

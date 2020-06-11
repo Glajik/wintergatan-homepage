@@ -26,6 +26,10 @@ body {
   opacity: 0.25;
 }
 
+.bg-odd {
+  background-color: var(--odd-bg-color);
+}
+
 /**
  * COMPONENTS
  */
@@ -169,7 +173,6 @@ button.play-btn, a.play-btn {
 
 .article--reverse {
   flex-direction: row-reverse;
-  background: var(--odd-bg-color);
 }
 
 .article--reverse figcaption {
@@ -233,7 +236,6 @@ button.play-btn, a.play-btn {
 /* Showcase */
 .showcase {
   padding: 120px 80px;
-  background-color: var(--odd-bg-color);
 }
 
 .showcase__header h1 {

@@ -257,10 +257,21 @@ button.play-btn, a.play-btn {
   margin-top: 30px;
 }
 
+.showcase__header_centered {
+  text-align: center;
+}
+
 .showcase__content {
   display: flex;
-  justify-content: space-between;
   margin-top: 100px;
+}
+
+.showcase__content_list {
+  justify-content: space-between;
+}
+
+.showcase__content_centered {
+  justify-content: center;
 }
 
 .showcase__card {

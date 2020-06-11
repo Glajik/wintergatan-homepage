@@ -1,0 +1,20 @@
+/* Tour */
+.tour {
+  display: flex;
+  justify-content: space-between;
+  padding: 120px 80px;
+}
+
+.tour__card {
+  max-width: 686px;
+}
+
+.tour__about {
+  max-width: 750px;
+  margin-right: 40px;
+}
+
+.tour__about figure {
+  max-width: 700px;
+  width: 100%;
+}

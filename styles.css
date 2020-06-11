@@ -153,13 +153,13 @@ button.play-btn, a.play-btn {
   padding: 80px;
 }
 
-.article figure {
+.article figure, .article__content{
   flex-basis: 750px;
   flex-shrink: 1;
   /* border: 1px solid red; */
 }
 
-.article figcaption {
+.article figcaption, .article__header {
   margin-left: 40px;
   margin-right: 0px;
   flex-basis: 690px;

@@ -18,7 +18,7 @@
   <link href="styles.css" rel="stylesheet">
   <link href="/styles/signup.css" rel="stylesheet">
   <!-- Title -->
-  <title>Sign Up</title>
+  <title>Log In</title>
 </head>
 <body>
   <!-- Top navigation -->
@@ -39,37 +39,32 @@
           <li><a href="#">Blog</a></li>
           <li><a href="#">Support Us</a></li>
         </ul>
-        <a role="button" class="btn btn-unfilled" href="/login.html">Log In</a>
+        <a role="button" class="btn btn-filled" href="/signup.html">Sign Up</a>
       </nav>
     </article>
     <!-- Breadcrumbs -->
     <nav aria-label="breadcrumb">
       <ol class="breadcrumb">
         <li class="breadcrumb-item"><a href="/index.html">Home</a></li>
-        <li class="breadcrumb-item active" aria-current="page">Sign up</li>
+        <li class="breadcrumb-item active" aria-current="page">Log In</li>
       </ol>
     </nav>
   </header>
 
   <main class="container">
-    <!-- Showcase -->
-    <article class="showcase">
-      <section class="showcase__header text-center">
-        <h1>Ready to join the community?</h1>
+    <!-- Login -->
+    <article class="article">
+      <section class="article__header">
+        <h1>The largest community of music enthusiasts</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
       </section>
-      <section class="showcase__content flex_center">
+      <section class="article__content">
         <article class="signup">
-          <h1>Sign up for a free account</h1>
+          <h1>Login to your account</h1>
           <form action="#" method="GET">
-            <div class="input-group">
-              <input class="form-control" type="text" name="first_name" placeholder="First name" minlength="3" required>
-              <span class="input-group__margin"></span>
-              <input class="form-control" type="text" name="last_name" placeholder="Last name" minlength="4" required>
-            </div>
             <input class="form-control" type="email" name="email" placeholder="Email" required>
-            <input class="form-control" type="password" name="password" placeholder="Create password" minlength="6" required>
-            <button type="submit" class="btn btn-filled">Register</button>
+            <input class="form-control" type="password" name="password" placeholder="Password" minlength="6" required>
+            <button type="submit" class="btn btn-filled">Login</button>
           </form>
         </article>
       </section>

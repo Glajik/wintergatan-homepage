@@ -1,0 +1,25 @@
+/* Icons */
+span.icons {
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+}
+
+.play-icon {
+  content: url("../img/icons/play.svg");
+  margin-left: 10px;
+}
+
+.sound-on-icon {
+  content: url("../img/icons/sound_on.svg");
+  margin-left: 10px;
+}
+
+.sound-off-icon {
+  content: url("../img/icons/sound_off.svg");
+  margin-left: 10px;
+}
+
+.sound-bars-icon {
+  content: url("../img/icons/sound_bars.svg");
+}

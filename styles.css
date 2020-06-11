@@ -291,6 +291,77 @@ button.play-btn {
   max-width: 429px;
 }
 
+/* Footer */
+.footer {
+  height: 264px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 80px;
+}
+
+.footer__left {
+  display: flex;
+}
+
+.footer__center {
+  display: flex;
+}
+
+.footer__right {
+  display: flex;
+}
+
+.footer figcaption {
+  font-family: 'Montserrat', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 32px;
+  /* identical to box height */
+  letter-spacing: -0.015em;
+  margin-left: 10px;
+}
+
+.footer figure {
+  margin: 0;
+}
+
+.footer ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.footer ul li {
+  list-style: none;
+  margin-right: 40px;
+}
+
+.footer ul li a {
+  font-family: 'Montserrat', serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: -0.015em;
+  color: black;
+}
+
+.footer__copyright {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  /* identical to box height, or 160% */
+  text-align: right;
+  letter-spacing: -0.015em;
+  paddng: 0px;
+  margin: 0px;
+}
+
 /* About */
 .about {
   display: flex;

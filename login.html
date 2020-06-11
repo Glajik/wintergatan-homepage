@@ -109,9 +109,7 @@
       const pwdEl = document.querySelector('[name="password"]');
       const email = emailEl.value;
       const sign = window.prompt(`Are you feeling lucky, ${email}?`, 'sure');
-      console.log(sign);
-      pwdEl.value = '';
-      emailEl.value = '';
+      location.assign("/");
     }
 
     document.querySelector('form')
